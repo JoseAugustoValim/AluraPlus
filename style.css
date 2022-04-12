@@ -70,3 +70,28 @@ h1 {
   font-size: 12px;
   color: var(--cinza-secundario);
 }
+
+.secundario {
+  align-items: center;
+  margin: 0 12em;
+}
+
+.secundario__imagem{
+  width: 60%;
+}
+
+.descricao__titulo{
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 0.15em;
+}
+
+.descricao__texto{
+  font-size: 16px;
+  color: var(--cinza-secundario);
+}
+
+.secundario_botao{
+  display: inline-block;
+  margin-top: 1em;
+}
