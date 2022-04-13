@@ -29,7 +29,7 @@ body {
   grid-template-columns: 50% 50%;
 }
 
-.container__caixa{
+.container__caixa {
   margin: 0 6em;
 }
 
@@ -76,22 +76,80 @@ h1 {
   margin: 0 12em;
 }
 
-.secundario__imagem{
+.secundario__imagem {
   width: 60%;
 }
 
-.descricao__titulo{
+.descricao__titulo {
   font-weight: 700;
   font-size: 48px;
   margin-bottom: 0.15em;
 }
 
-.descricao__texto{
-  font-size: 16px;
+.descricao__texto {
   color: var(--cinza-secundario);
+  font-size: 16px;
 }
 
-.secundario_botao{
+.secundario_botao {
   display: inline-block;
   margin-top: 1em;
+}
+
+.secundario__imagem-terciaria {
+  margin-left: 10em;
+  width: 60%;
+}
+
+.dispositivos {
+  text-align: center;
+  color: var(--branco-principal);
+}
+
+.dispositivos__titulo {
+  font-size: 48px;
+}
+
+.dispositivos__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.lista__item {
+  font-size: 32px;
+  color: var(--branco-principal);
+}
+
+.rodape {
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape__imagem {
+  align-items: center;
+}
+
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.lista__link {
+  color: var(--branco-principal);
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.lista__link a:hover {
+  color: var(--botao-azul);
+
+}
+
+.rodape__texto {
+  color: var(--cinza-secundario);
+  font-size: 14px;
 }
